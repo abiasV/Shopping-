@@ -1,0 +1,44 @@
+###
+get http://localhost:5000/api/product
+
+###
+POST http://localhost:5000/api/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "email": "abbas_p2000@yahoo.com",
+    "password": "Abbas1362",
+    "user":"Abbas Vaziri",
+    "phoneNumber":"6473257316"
+}
+
+###
+POST http://localhost:5000/api/user/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "smmvy@yahoo.com",
+    "password": "13321362"
+}
+
+###
+POST http://localhost:5000/api/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "email": "smmvy@yahoo.com",
+    "password": "13321362",
+    "user":"mehdi v",
+    "phoneNumber":"09125367777"
+}
+
+###
+POST http://localhost:5000/api/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "email": "ali@yahoo.com",
+    "password": "12345612",
+    "user":"ali mola",
+    "phoneNumber":"0018883355"
+}

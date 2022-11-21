@@ -1,0 +1,83 @@
+.cartItemList {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 1;
+    padding: 1rem;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin: 10px;
+}
+
+.cartItem .itemImg {
+    width: 120px;
+    height: 120px;
+}
+
+.cartItem .itemImg img {
+    width: 100%;
+    height: auto;
+}
+
+.cartSummary {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 30%;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+
+.cartCenter {
+    display: flex;
+    width: 90vw;
+    max-width: 1570px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.summaryItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cartSummary hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.btnGroup button {
+    outline: none;
+    border: 1px solid #6d28d9;
+    color: #6d28d9;
+    padding: 5px 10px;
+    background-color: #fff;
+}
+
+.btnGroup button:first-child {
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+
+.btnGroup button:last-child {
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.btnGroup button:nth-child(2) {
+    border-right: 0;
+    border-left: 0;
+}
